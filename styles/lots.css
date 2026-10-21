@@ -1,0 +1,104 @@
+/* фоны для карточек */
+.card_type_film {
+    background-image: url("../images/card-lot-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card_type_book {
+    background-image: url("../images/card-lot-02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card_type_picture {
+    background-image: url("../images/card-lot-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 48px 40px;
+}
+
+.card-link {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+
+.lots {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    max-width: 1052px; /* взяла максимальную ширину из Figma */
+    margin-left: auto;
+    margin-right: auto;
+    gap: 27px;
+    margin-bottom: 118px;
+}
+
+
+.lots__heading {
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.lots__card-list {
+    display: flex;
+    gap: 25px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+.lots__card-list-item {
+    display: flex;
+    flex-wrap: wrap; /* взяла из урока (если добавляется четвёртая карточка, она должна переноситься на новую строку) */
+    width: 33%;
+    max-width: 334px; /* значение из Figma */
+    min-height: 596px;
+    height: 596px;
+}
+
+
+.card__title,
+.card__text {
+    color: #fff;
+    position: relative;
+    z-index: 100;
+}
+
+
+.card__title{
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+
+.lots__look-more-link {
+    margin-left: 40px;
+}
+
+
+

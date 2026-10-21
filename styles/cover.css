@@ -7,6 +7,7 @@
     background: url("../images/lotus-flower.jpg") no-repeat center;
     background-size: cover;
     color: #fff;
+    margin-bottom: 180px;
 }
 
 
@@ -61,11 +62,6 @@
 .cover__description-text {
     line-height: 28px;
     word-spacing: 20px;
-}
-
-
-.no-letter-spacing { /* Класс для буквы "о" в слове "надо" */
-    letter-spacing: 0;
 }
 
 

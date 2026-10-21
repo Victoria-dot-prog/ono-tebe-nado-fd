@@ -1,4 +1,7 @@
-@import url("./header.css");
-@import url("./global.css");
-@import url("./cover.css");
 @import url("./normalize.css");
+@import url("./global.css");
+@import url("./header.css");
+@import url("./cover.css");
+@import url("./lots.css");
+@import url("./about.css");
+@import url("./footer.css");
