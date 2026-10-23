@@ -44,7 +44,7 @@
 }
 
 
-.about__column:nth-child(2){
+.about__column:nth-child(2) {
     gap: 100px;
     align-items: start;
     justify-content: start;

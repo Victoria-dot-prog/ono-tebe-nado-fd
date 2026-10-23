@@ -3,8 +3,8 @@ header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding-top: 133px; /* значения взяты из фигмы */
-  padding-bottom: 138px;
+  padding-top: 93px; /* значения взяты из фигмы */
+  padding-bottom: 98px;
   padding-left: 50px;
   padding-right: 50.52px;
 }
