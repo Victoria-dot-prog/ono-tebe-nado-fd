@@ -1,50 +1,45 @@
-/* шаги 1-3: сетка шапки */
-header {
+.header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding-top: 93px; /* значения взяты из фигмы */
+  padding-top: 93px;
   padding-bottom: 98px;
   padding-left: 50px;
   padding-right: 50.52px;
 }
 
 
-header nav ul {
+.header__links-list {
   display: flex;
-  gap: 31.48px; /* значения взяты из фигмы */
+  gap: 31.48px;
   list-style: circle;
 }
 
 
-/* «главная» в макете без кружка и без подчёркивания */
-header nav li:first-child {
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
 
-header nav li:first-child a {
+.header__links-list-item_no-bullit .header__link {
   text-decoration: none;
 }
 
 
-/* Логотип: размер задаём ссылке */ /*Знак > называется комбинатор дочернего элемента.
-Он выбирает только прямых потомков, то есть элементы, которые лежат внутри родителя сразу, без промежуточных тегов */
-header > a {
+.header__logo {
   display: block;
-  width: 129px; /* значения взяты из фигмы */
+  width: 129px;
   height: 104px;
 }
 
 
-/* SVG не затронут правилом для img, поэтому растягиваем сами */
-header > a svg {
+.header__logo svg {
   display: block;
   width: 100%;
 }
 
 
-header address {
+.header address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
