@@ -1,5 +1,4 @@
 .cover {
-    min-height: 755px;
     padding: 165px 50px 50px 50px;
     display: flex;
     flex-direction: column;
@@ -33,8 +32,9 @@
     font-weight: 700; /*все значения взяты из фигмы*/
     font-size: 100px;
     line-height: 114px;
-    letter-spacing: 30%;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
+    margin-bottom: 106px;
 }
 
 

@@ -7,7 +7,6 @@
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    min-height: 595px;
     margin-bottom: 180px;
 }
 
@@ -20,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin: auto;
 }
 
 
@@ -48,7 +47,7 @@
     gap: 100px;
     align-items: start;
     justify-content: start;
-    padding-top: 136px;
+    padding-top: 98px;
 }
 
 .about__text {
