@@ -13,6 +13,7 @@
   display: flex;
   gap: 31.48px;
   list-style: circle;
+  font-size: 18px;
 }
 
 
@@ -46,4 +47,5 @@
   justify-self: end;
   max-width: 240px;
   font-style: normal;
+  font-size: 18px;
 }

@@ -35,11 +35,13 @@
     letter-spacing: 0.3em;
     text-transform: uppercase;
     margin-bottom: 106px;
+    margin-top: 20px;
 }
 
 
 .cover__word_center {
     align-self: center;
+
 }
 
 
